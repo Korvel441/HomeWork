@@ -24,6 +24,10 @@ if (m == n)
 {
     Console.WriteLine($"Задан пустой интервал");
 }
+if ((m + 1) == n)
+{
+    Console.WriteLine($"Между {m} и {n} нет ни одного значения");
+}
 else
 {
     PrintNumbers(m, n);
